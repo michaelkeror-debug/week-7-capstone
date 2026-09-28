@@ -1,0 +1,8 @@
+scenario,api_usd_per_req,selfhost_fixed_monthly,selfhost_var_per_req,miss_rate,break_even_monthly_requests,x_baseline_volume,monthly_usd_at_break_even,tests
+Base case,0.00020182,1300.0,5e-05,1.0,8562490,85.6,1728.12,estimates as stated
+API price -50%,0.00010091,1300.0,5e-05,1.0,25534004,255.3,2576.7,vendor cuts price
+API price +50%,0.00030274,1300.0,5e-05,1.0,5143677,51.4,1557.18,vendor raises price
+GPU -40% (reserved/spot),0.00020182,960.0,5e-05,1.0,6323069,63.2,1276.15,commitment discount [7]
+2 GPUs (capacity or HA),0.00020182,2150.0,5e-05,1.0,14161041,141.6,2858.05,one GPU is not enough or no failover
+On-call x2,0.00020182,1700.0,5e-05,1.0,11197102,112.0,2259.86,GPU ops harder than planned
+"Cache 60% hit, both paths",0.00020182,1300.0,5e-05,0.4,21406224,214.1,1728.12,levers_bench hit rate [8]

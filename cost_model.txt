@@ -1,0 +1,23 @@
+model=gpt-4o-mini
+prompt_tokens=450 completion_tokens=180
+price_prompt_per_m=0.15 price_completion_per_m=0.6
+api_usd_per_request=0.000176
+ops_monthly_usd=400.00
+
+[BASELINE]
+  monthly_requests               100,000
+  api_usd                          17.55
+  infra_usd                         2.63
+  ops_usd                         400.00
+  total_usd                       420.18
+  usd_per_1k (fully loaded)       4.2018
+  usd_per_1k (API + infra)        0.2018
+
+[SPIKE 10x (retry +5%, infra +25%)]
+  monthly_requests             1,000,000
+  api_usd                         184.28
+  infra_usd                        46.07
+  ops_usd                         400.00
+  total_usd                       630.34
+  usd_per_1k (fully loaded)       0.6303
+  usd_per_1k (API + infra)        0.2303

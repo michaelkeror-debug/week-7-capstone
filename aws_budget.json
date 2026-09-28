@@ -1,0 +1,9 @@
+{
+  "BudgetName": "afyaplus-triage-monthly",
+  "BudgetLimit": { "Amount": "400", "Unit": "USD" },
+  "TimeUnit": "MONTHLY",
+  "BudgetType": "COST",
+  "CostFilters": {
+    "TagKeyValue": ["user:service$triage-api"]
+  }
+}

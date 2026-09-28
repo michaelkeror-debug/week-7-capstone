@@ -1,0 +1,5 @@
+lever,scenario,requests,model_calls,hit_rate,usd_per_1k,p95_ms,backend
+cache,before (no cache),100,100,0.0,0.2018,0.0,memory/stub
+cache,after (cache on),100,40,0.6,0.0807,0.0,memory/stub
+batch,before (one call per job),100,100,,0.1052,0.75,sqlite/stub
+batch,after (batch of 8),100,13,,0.0536,4.05,sqlite/stub

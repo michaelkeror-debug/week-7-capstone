@@ -1,0 +1,162 @@
+[
+  {
+    "message": "Fever for two days, drinking fluids",
+    "urgency": "routine"
+  },
+  {
+    "message": "Persistent cough for a week",
+    "urgency": "routine"
+  },
+  {
+    "message": "Child with diarrhoea since morning",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Mild headache after missing lunch",
+    "urgency": "routine"
+  },
+  {
+    "message": "Chest pain radiating to left arm",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Twisted ankle, mild swelling",
+    "urgency": "routine"
+  },
+  {
+    "message": "Rash spreading on the forearm",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Sore throat, no fever",
+    "urgency": "routine"
+  },
+  {
+    "message": "Shortness of breath climbing stairs",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Stomach pain after eating",
+    "urgency": "routine"
+  },
+  {
+    "message": "Toothache for three days",
+    "urgency": "routine"
+  },
+  {
+    "message": "Low-grade fever with body aches",
+    "urgency": "routine"
+  },
+  {
+    "message": "Cut on hand, bleeding stopped",
+    "urgency": "routine"
+  },
+  {
+    "message": "Dizziness on standing up quickly",
+    "urgency": "routine"
+  },
+  {
+    "message": "Ear pain and mild hearing loss",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Back pain after lifting a jerry can",
+    "urgency": "routine"
+  },
+  {
+    "message": "Blurred vision since this morning",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Swollen ankle, cannot bear weight",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Persistent vomiting since last night",
+    "urgency": "urgent"
+  },
+  {
+    "message": "Mild burn on the forearm",
+    "urgency": "routine"
+  },
+  {
+    "message": "High fever with stiff neck",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Sudden weakness on one side",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Difficulty breathing after a bee sting",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Severe abdominal pain, rigid",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Coughing up blood",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Chest tightness at rest",
+    "urgency": "emergency"
+  },
+  {
+    "message": "Mild seasonal allergy symptoms",
+    "urgency": "routine"
+  },
+  {
+    "message": "Sprained wrist from a fall",
+    "urgency": "routine"
+  },
+  {
+    "message": "Sore muscles after exercise",
+    "urgency": "routine"
+  },
+  {
+    "message": "Common cold symptoms, no fever",
+    "urgency": "routine"
+  },
+  {
+    "message": "Insect bite with local swelling",
+    "urgency": "routine"
+  },
+  {
+    "message": "Minor scrape on the knee",
+    "urgency": "routine"
+  },
+  {
+    "message": "Heartburn after a heavy meal",
+    "urgency": "routine"
+  },
+  {
+    "message": "Feeling tired, no other symptoms",
+    "urgency": "routine"
+  },
+  {
+    "message": "Nosebleed that stopped on its own",
+    "urgency": "routine"
+  },
+  {
+    "message": "Sunburn on shoulders",
+    "urgency": "routine"
+  },
+  {
+    "message": "Mild anxiety before an exam",
+    "urgency": "routine"
+  },
+  {
+    "message": "Hiccups lasting one hour",
+    "urgency": "routine"
+  },
+  {
+    "message": "Bruise on the shin from a bump",
+    "urgency": "routine"
+  },
+  {
+    "message": "Runny nose and sneezing",
+    "urgency": "routine"
+  }
+]

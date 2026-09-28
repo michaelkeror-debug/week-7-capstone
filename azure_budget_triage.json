@@ -1,0 +1,27 @@
+{
+  "displayName": "afyaplus-triage-monthly",
+  "amount": 400,
+  "timeGrain": "Monthly",
+  "category": "Cost",
+  "filter": {
+    "tags": {
+      "service": ["triage-api"]
+    }
+  },
+  "notifications": {
+    "Actual_GreaterThan_80_Percent": {
+      "enabled": true,
+      "operator": "GreaterThan",
+      "threshold": 80,
+      "thresholdType": "Actual",
+      "contactEmails": ["finops@afyaplus.ke", "wanjiru@afyaplus.ke"]
+    },
+    "Forecast_GreaterThan_100_Percent": {
+      "enabled": true,
+      "operator": "GreaterThan",
+      "threshold": 100,
+      "thresholdType": "Forecasted",
+      "contactEmails": ["finops@afyaplus.ke"]
+    }
+  }
+}

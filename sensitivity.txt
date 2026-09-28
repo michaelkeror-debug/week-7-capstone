@@ -1,0 +1,11 @@
+  prompt  c=80     c=180    c=360  
+     300   0.1069   0.1759   0.3002
+     450   0.1328   0.2018   0.3260
+     900   0.2104   0.2794   0.4036
+
+baseline $/1k 0.2018
+double prompt 450->900 @180: 0.0776
+double completion 180->360 @450: 0.1242
+
+wrote 9 rows to token_sweep.csv
+assumptions: infra_overhead=0.15, price_prompt_per_m=0.15, price_completion_per_m=0.6, ops excluded
